@@ -6,26 +6,12 @@
     <link rel="icon" type="image/x-icon" href="/Multi-Viewer/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Multi-Viewer</title>
-    <link rel="manifest" href="/Multi-Viewer/manifest.json" />
     <meta name="theme-color" content="#1976d2" />
     <meta name="description" content="動画やライブ配信を最大4窓で同時視聴できるPWAアプリ" />
-    <script type="module" crossorigin src="/Multi-Viewer/assets/index-DqDgapBj.js"></script>
+    <script type="module" crossorigin src="/Multi-Viewer/assets/index-BUVLtsp1.js"></script>
     <link rel="stylesheet" crossorigin href="/Multi-Viewer/assets/index-C2PPakjp.css">
-  </head>
+  <link rel="manifest" href="/Multi-Viewer/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/Multi-Viewer/registerSW.js"></script></head>
   <body>
     <div id="root"></div>
-    <script>
-      if ('serviceWorker' in navigator) {
-        window.addEventListener('load', () => {
-          navigator.serviceWorker.register('/Multi-Viewer/sw.js')
-            .then((registration) => {
-              console.log('SW registered: ', registration);
-            })
-            .catch((registrationError) => {
-              console.log('SW registration failed: ', registrationError);
-            });
-        });
-      }
-    </script>
   </body>
 </html>
