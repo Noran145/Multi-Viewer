@@ -1,9 +1,10 @@
-const CACHE_NAME = 'youtube-multi-viewer-v1';
+const CACHE_NAME = 'multi-viewer-v1';
 const urlsToCache = [
-  '/',
-  '/static/js/bundle.js',
-  '/static/css/main.css',
-  '/manifest.json'
+  '/Multi-Viewer/',
+  '/Multi-Viewer/index.html',
+  '/Multi-Viewer/manifest.json',
+  '/Multi-Viewer/favicon.ico',
+  '/Multi-Viewer/vite.svg'
 ];
 
 self.addEventListener('install', (event) => {

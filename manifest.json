@@ -2,7 +2,7 @@
   "name": "Multi-Viewer",
   "short_name": "MV",
   "description": "動画やライブ配信を最大4窓で同時視聴できるPWAアプリ",
-  "start_url": "/",
+  "start_url": "/Multi-Viewer/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#1976d2",
@@ -16,5 +16,5 @@
   ],
   "categories": ["entertainment", "multimedia"],
   "orientation": "any",
-  "scope": "/"
+  "scope": "/Multi-Viewer/"
 }
